@@ -26,4 +26,5 @@ socket.on('message', msg => {
     console.log('message is', msg);
 });
 
+//log torrent
 console.log(torrent.announce.toString('utf8'));
